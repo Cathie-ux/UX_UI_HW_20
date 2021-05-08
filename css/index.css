@@ -1,0 +1,123 @@
+/* Text */
+h1, h3 , h4, h5, h6, p {
+    font-family: 'WebFont', Staff Light, sans-serif;
+    letter-spacing: 1px;
+}
+  
+.intro h2 {
+    font-family: 'WebFont', Voyage, sans-serif !important;
+    font-weight: bold !important;
+    /* border: 1px solid #eb392c;  */
+}
+
+/* Navigation bar */
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: black !important;
+    background-size: cover;
+    z-index: 10;
+    color: white;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+    color: #fafafa;
+    font-family: 'WebFont', Staff Light, sans-serif !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+}
+.navbar-brand {
+    font-family: 'WebFont', Voyage, sans-serif !important;
+    color :#fafafa;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.nav-item {
+    margin: 0px 15px;
+}
+
+/* Navigation links */
+.customNav a {
+    color: white !important;
+}
+
+/* Jumbotron  */
+.jumbotron {
+    background-image: url(../images/Sportteam.Portfolio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #eb392c;  */
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+    /* border: 1px solid #eb392c;  */
+}
+
+.intro h2 {
+    font-family: 'WebFont', Staff, sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.35;
+    color: #1F1F1F; 
+    max-width: 820px;
+    margin: 0 auto;   
+    /* border: 1px solid #eb392c;  */
+}
+.intro .lead .role { 
+    font-family: 'WebFont', Staff, sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #1F1F1F; 
+    margin: 0 auto;   
+}
+
+
+/* Accordion */
+.btn {
+    color: rgb(46, 170, 63) !important;
+    /* border: 1px solid #eb392c;  */
+}
+
+/* Cards */
+.content {
+    padding: 50px;
+}
+.sectionHeading {
+    text-align: center;
+}
+.showsNear  {
+    padding: 0px 30px 30px 30px;
+}
+.cardContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+.card {
+    margin: 0 auto;
+}
+
+.row {
+   /* border: 1px solid #eb392c;  */
+   padding: 50px;
+}
+
+<!-- Prototype-->
+.small, small {
+    word-spacing: 1px;
+    font-size: 90%;
+    font-weight: 400;
+}
+
+.text-muted {
+    color: #e96711 !important;
+}
+
